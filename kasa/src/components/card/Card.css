@@ -1,0 +1,19 @@
+.card {
+    background: linear-gradient(to top, #b83e3e, #ff6060);
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    height: 340px;
+    width: 340px;
+}
+
+.card-content {
+    margin: 10px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}

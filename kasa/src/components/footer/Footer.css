@@ -1,0 +1,13 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logoFooter {
+    margin: 3% 5% 0;
+    height: 32px;
+    filter: invert(1) grayscale(1) brightness(2);
+    margin-bottom: 10px;
+}
