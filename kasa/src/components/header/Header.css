@@ -4,6 +4,7 @@ header {
     align-items: center;
     padding: 20px;
     background-color: white;
+    margin: 1% 2%;
 }
 
 .logo img {
@@ -14,4 +15,25 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    nav a {
+        margin: 10px 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    nav a {
+        margin: 4px;
+        font-size: 18px;
+        font-weight: 500;
+        display: flex;
+        gap: 10px;
+    }
 }
