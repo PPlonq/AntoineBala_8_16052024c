@@ -1,0 +1,32 @@
+.errorPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 73.3vh;
+}
+
+.errorPage h1 {
+    font-size: 100px;
+    color: var(--redColor);
+    font-size: 288px;
+    font-weight: 700;
+    line-height: 410.69px;
+    text-align: center;
+    margin: 0;
+}
+
+.errorPage p {
+    color: var(--redColor);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 51.34px;
+    text-align: left;
+}
+
+.errorPage a {
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}

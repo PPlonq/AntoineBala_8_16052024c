@@ -16,7 +16,7 @@ const Home = () => {
     return (
         <div className="home">
             <Banner />
-            <div className="card-container">
+            <div className="dropdown">
                 {cards.map((card) => (
                     <Card key={card.id} title={card.title} />
                 ))}

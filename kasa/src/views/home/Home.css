@@ -3,7 +3,7 @@
 }
 
 .card-container {
-    background-color: #f6f6f6;
+    background-color: var(--greyBackground);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
