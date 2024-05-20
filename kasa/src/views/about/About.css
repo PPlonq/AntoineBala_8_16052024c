@@ -1,5 +1,6 @@
 .about {
-    height: 73.3vh;
+    /* text-align: center; */
+    padding: 20px;
 }
 
 .dropdown-container {
@@ -7,6 +8,5 @@
     flex-direction: column;
     gap: 15px;
     align-items: center;
-    padding: 5% 0;
-    gap: 30px;
+    padding: 10px 0 10px 0;
 }
