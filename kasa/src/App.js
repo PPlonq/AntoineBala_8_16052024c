@@ -5,7 +5,6 @@ import Footer from "./components/footer/Footer";
 import Home from "./views/home/Home";
 import About from "./views/about/About";
 import Error from "./views/error/error.js";
-import Dropdown from "./components/dropdown/Dropdown.js";
 import "./App.css";
 
 const App = () => {

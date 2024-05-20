@@ -13,7 +13,7 @@ const Dropdown = ({ title, content }) => {
         <div className="dropdown">
             <div className={`dropdown-header`} onClick={toggleDropdown}>
                 <span>{title}</span>
-                <span className={`arrow ${isOpen ? "down" : "left"}`}>
+                <span className={`arrow ${isOpen ? "down" : "right"}`}>
                     <img src={arrow} alt="Arrow" />
                 </span>
             </div>

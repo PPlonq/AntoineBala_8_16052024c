@@ -14,6 +14,8 @@
     justify-content: space-between;
     padding: 10px;
     width: 100%;
+    height: 50px;
+    border-radius: 4px;
 }
 
 .arrow {
@@ -29,4 +31,9 @@
     background-color: var(--greyBackground);
     color: black;
     width: 100%;
+}
+
+.dropdown-header span {
+    font-weight: 500;
+    font-size: 18px;
 }

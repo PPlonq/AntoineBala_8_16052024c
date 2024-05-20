@@ -2,3 +2,12 @@
     --redColor: #ff6060;
     --greyBackground: #f6f6f6;
 }
+
+html,
+body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
