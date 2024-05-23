@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Dropdown.css";
+import "./Dropdown.scss";
 import arrow from "../../assets/arrow/Arrow.svg";
 
 const Dropdown = ({ title, content }) => {

@@ -5,7 +5,7 @@ import Footer from "./components/footer/Footer";
 import Home from "./views/home/Home";
 import About from "./views/about/About";
 import Error from "./views/error/error.js";
-import "./App.css";
+import "./App.scss";
 
 const App = () => {
     return (

@@ -1,7 +1,8 @@
 import React from "react";
 import Banner from "../../components/banner/Banner";
 import Dropdown from "../../components/dropdown/Dropdown";
-import "./About.css";
+import bannerAbout from "../../assets/images/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png";
+import "./About.scss";
 
 const About = () => {
     const dropdowns = [

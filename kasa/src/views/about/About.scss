@@ -1,0 +1,10 @@
+.about {
+    padding: 0;
+    .dropdown-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        padding: 3.9% 0;
+    }
+}
