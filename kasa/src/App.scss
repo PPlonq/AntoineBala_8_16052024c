@@ -1,6 +1,7 @@
 :root {
     --redColor: #ff6060;
     --greyBackground: #f6f6f6;
+    --cardBackground: linear-gradient(to top, #b83e3e, #ff6060);
 }
 
 html {
@@ -8,5 +9,8 @@ html {
         height: 100%;
         display: flex;
         flex-direction: column;
+    }
+    a {
+        text-decoration: none;
     }
 }

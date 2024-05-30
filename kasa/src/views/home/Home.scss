@@ -7,10 +7,27 @@
         gap: 20px;
         padding: 20px 20%;
         border-radius: 10px;
-        margin: 1% 5%;
+        height: 34em;
+        margin: 1.2% 5%;
         justify-content: center;
         justify-items: center;
         align-items: center;
+    }
+    .load-more-btn {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        font-size: 1em;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #0056b3;
+        }
     }
 }
 

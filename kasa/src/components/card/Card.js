@@ -1,12 +1,12 @@
+// src/components/card/Card.js
 import React from "react";
 import "./Card.scss";
 
-const Card = ({ title }) => {
+const Card = ({ title, cover }) => {
     return (
         <div className="card">
-            <div className="card-content">
-                <div className="card-title">{title}</div>
-            </div>
+            <img src={cover} alt={title} className="card-cover" />
+            <h2>{title}</h2>
         </div>
     );
 };

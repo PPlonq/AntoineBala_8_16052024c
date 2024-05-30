@@ -1,12 +1,10 @@
 import React from "react";
 import "./Banner.scss";
 
-const Banner = () => {
+const Banner = ({ backgroundImage, children }) => {
     return (
-        <div className="banner">
-            <div className="banner-overlay">
-                <h1>Chez vous, partout et ailleurs</h1>
-            </div>
+        <div className="banner" style={{ backgroundImage: `url(${backgroundImage})` }}>
+            <div className="banner-overlay">{children}</div>
         </div>
     );
 };

@@ -1,0 +1,162 @@
+.logement {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Arial", sans-serif;
+
+    .gallery-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .logement-gallery {
+        position: relative;
+        width: 100%;
+        max-width: 800px;
+        height: 500px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .gallery-controls {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transform: translateY(-50%);
+
+            button {
+                background: rgba(255, 255, 255, 0.8);
+                border: none;
+                padding: 10px;
+                cursor: pointer;
+                border-radius: 50%;
+                font-size: 1.5em;
+
+                &:hover {
+                    background: rgba(255, 255, 255, 1);
+                }
+            }
+
+            span {
+                background: rgba(255, 255, 255, 0.8);
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    .info-container {
+        .logement-info {
+            margin-bottom: 20px;
+
+            h1 {
+                font-size: 2em;
+                margin-bottom: 10px;
+            }
+
+            p {
+                color: #888;
+            }
+
+            .tags {
+                margin: 10px 0;
+
+                .tag {
+                    background: #ff6060;
+                    color: white;
+                    padding: 5px 10px;
+                    margin-right: 5px;
+                    border-radius: 5px;
+                }
+            }
+
+            .host {
+                display: flex;
+                align-items: center;
+                margin: 20px 0;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                }
+
+                p {
+                    margin: 0;
+                    font-weight: bold;
+                }
+            }
+
+            .rating {
+                display: flex;
+
+                .star {
+                    font-size: 1.5em;
+                    color: #e3e3e3;
+
+                    &.filled {
+                        color: #ff6060;
+                    }
+                }
+            }
+        }
+
+        .dropdown-container {
+            .dropdown {
+                margin-top: 20px;
+
+                .dropdown-btn {
+                    width: 100%;
+                    padding: 10px;
+                    background: #ff6060;
+                    color: white;
+                    border: none;
+                    border-radius: 8px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    cursor: pointer;
+                    font-size: 1.2em;
+
+                    span {
+                        font-size: 0.8em;
+                    }
+
+                    &:hover {
+                        background: #e55555;
+                    }
+                }
+
+                .dropdown-content {
+                    background: #f6f6f6;
+                    padding: 20px;
+                    border-radius: 8px;
+                    margin-top: 10px;
+
+                    p {
+                        margin: 0;
+                    }
+
+                    ul {
+                        list-style: none;
+                        padding: 0;
+
+                        li {
+                            margin-bottom: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

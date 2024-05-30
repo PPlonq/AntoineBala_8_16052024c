@@ -1,28 +1,44 @@
+// src/components/card/Card.scss
 .card {
-    background: linear-gradient(to top, #b83e3e, #ff6060);
-    padding: 20px;
+    background: var(--cardBackground);
     color: white;
     border-radius: 8px;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
     height: 230px;
     width: 230px;
     cursor: pointer;
+    position: relative;
+
     &:hover {
-        filter: brightness(1.3);
-        transition: ease-in-out 1s;
+        filter: brightness(1.1);
+        transition: ease-in-out 0.3s;
     }
+
+    .card-cover {
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }
+
     .card-content {
-        margin: 10px;
+        position: relative;
+        z-index: 1;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
     }
-    .card-title {
+
+    h2 {
         font-size: 1.2em;
         font-weight: bold;
+        margin: 0;
+        z-index: 1;
     }
 }
-
-// @media (max-width: 768px) {
-//     .card {
-//         width: 90%;
-//     }
-// }
