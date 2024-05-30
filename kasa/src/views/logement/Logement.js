@@ -17,7 +17,7 @@ const Logement = () => {
     }, [house, navigate]);
 
     if (!house) {
-        return null; // This return is necessary to avoid rendering the rest of the component before redirect
+        return null;
     }
 
     const nextImage = () => {

@@ -5,6 +5,7 @@ header {
     padding: 20px;
     background-color: white;
     margin: 1% 5% 0;
+
     .logo img {
         height: 60px;
     }
@@ -15,26 +16,25 @@ header {
         color: black;
         font-weight: 500;
         font-size: 20px;
+        position: relative;
+        padding-bottom: 5px;
+
+        &.active {
+            color: #ff6060;
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 2px;
+                background-color: #ff6060;
+            }
+        }
+
+        &:hover {
+            color: #ff6060;
+        }
     }
 }
-
-// @media (max-width: 768px) {
-//     header {
-//         flex-direction: row;
-//         align-items: flex-start;
-//     }
-
-//     nav a {
-//         margin: 10px 20px;
-//     }
-// }
-
-// @media (max-width: 375px) {
-//     nav a {
-//         margin: 4px;
-//         font-size: 18px;
-//         font-weight: 500;
-//         display: flex;
-//         gap: 10px;
-//     }
-// }
